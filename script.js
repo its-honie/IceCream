@@ -108,21 +108,30 @@ const formatTime = (time) => {
 setInterval(() => {
   seekBar.value = music.currentTime;
   currentTime.innerHTML = formatTime(music.currentTime);
+  if(Math.floor(music.currentTime) == Math.floor(seekBar.max)){
+    forwardBtn.click();
+  }
 }, 500);
 
 seekBar.addEventListener('input', () => {
   music.currentTime = seekBar.value;
 });
 
+const playMusic = () => {
+  music.play();
+  playBtn.classList.remove('pause');
+  disk.classList.add('play')
+}
+  
 forwardBtn.addEventListener('click', () => {
   currentMusic = (currentMusic >= songs.length - 1) ? 0 : currentMusic + 1;
   setMusic(currentMusic);
-  playBtn.click();
+  playMusic();
 });
 
 backwardBtn.addEventListener('click', () => {
   currentMusic = (currentMusic <= 0) ? songs.length - 1 : currentMusic - 1;
   setMusic(currentMusic);
-  playBtn.click();
+  playMusic();
 });
 });
