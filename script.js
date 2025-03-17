@@ -31,12 +31,6 @@ document.addEventListener('DOMContentLoaded', () => {
       cover: 'media/6.jpg'
     },
     {
-      name: 'P.S I Love You',
-      path: 'media/iloveyou7.mp3',
-      artist: 'Paul Partohap',
-      cover: 'media/7.jpg'
-    },
-    {
       name: 'Weak',
       path: 'media/weak8.mp3',
       artist: 'SWV',
