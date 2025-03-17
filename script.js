@@ -64,6 +64,11 @@ const playBtn = document.querySelector('.play-btn');
 const forwardBtn = document.querySelector('.forward-btn');
 const backwardBtn = document.querySelector('.backward-btn');
 
+if (!music || !playBtn || !forwardBtn || !backwardBtn || !seekBar) {
+    console.error("One or more elements not found in the DOM.");
+    return;
+}
+  
 playBtn.addEventListener('click', () => {
   if (playBtn.classList.contains('pause')) {
     music.play();
