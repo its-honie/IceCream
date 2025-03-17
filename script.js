@@ -105,11 +105,13 @@ const formatTime = (time) => {
   return `${min.toString().padStart(2, '0')} : ${sec.toString().padStart(2, '0')}`;
 };
 
-setInterval(() => {
-  seekBar.value = music.currentTime;
-  currentTime.innerHTML = formatTime(music.currentTime);
-  
-}, 500);
+ setInterval(() => {
+    seekBar.value = music.currentTime;
+    if (currentTime) currentTime.innerHTML = formatTime(music.currentTime);
+    if (Math.floor(music.currentTime) == Math.floor(seekBar.max)) {
+      forwardBtn.click();
+    }
+  }, 500);
 
 seekBar.addEventListener('input', () => {
   music.currentTime = seekBar.value;
