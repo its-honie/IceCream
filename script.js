@@ -23,29 +23,25 @@ document.addEventListener('DOMContentLoaded', () => {
       path: 'media/only5.mp3',
       artist: 'LeeHi',
       cover: 'media/5.jpg'
-    }, 
-        
+    },    
     {
       name: 'I LIKE U',
       path: 'media/ilikeu6.mp3',
       artist: 'NIKI',
       cover: 'media/6.jpg'
-    }, 
-    
+    },
     {
       name: 'P.S I Love You',
       path: 'media/iloveyou7.mp3',
       artist: 'Paul Partohap',
       cover: 'media/7.jpg'
     },
-    
     {
       name: 'Weak',
       path: 'media/weak8.mp3',
       artist: 'SWV',
       cover: 'media/8.jpg'
-    }, 
-    
+    },
     {
       name: 'Fallen',
       path: 'media/fallen9.mp3',
