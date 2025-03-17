@@ -31,16 +31,16 @@ document.addEventListener('DOMContentLoaded', () => {
       cover: 'media/6.jpg'
     },
     {
-      name: 'Weak',
-      path: 'media/weak8.mp3',
-      artist: 'SWV',
-      cover: 'media/8.jpg'
-    },
-    {
       name: 'Fallen',
       path: 'media/fallen9.mp3',
       artist: 'Lola Amour',
       cover: 'media/9.jpg'
+    }, 
+    {
+      name: 'Weak',
+      path: 'media/weak8.mp3',
+      artist: 'SWV',
+      cover: 'media/8.jpg'
     }
   ];
 
