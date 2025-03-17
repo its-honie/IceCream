@@ -32,7 +32,7 @@ document.addEventListener('DOMContentLoaded', () => {
     },
     {
       name: 'P.S I Love You',
-      path: 'media/iloveyou9.mp3',
+      path: 'media/iloveyou7.mp3',
       artist: 'Paul Partohap',
       cover: 'media/7.jpg'
     },
