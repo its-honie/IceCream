@@ -23,9 +23,9 @@ document.addEventListener('DOMContentLoaded', () => {
       path: 'media/only5.mp3',
       artist: 'LeeHi',
       cover: 'media/5.jpg'
-    },    
-    {
-      name: 'I LIKE U',
+    }, 
+     {
+       name: 'I LIKE U',
       path: 'media/ilikeu6.mp3',
       artist: 'NIKI',
       cover: 'media/6.jpg'
@@ -41,6 +41,12 @@ document.addEventListener('DOMContentLoaded', () => {
       path: 'media/weak8.mp3',
       artist: 'SWV',
       cover: 'media/8.jpg'
+    },
+    {
+      name: 'Tibok',
+      path: 'media/tibok10.mp3',
+      artist: 'Earl Agustin',
+      cover: 'media/10.jpg'
     }
   ];
 
